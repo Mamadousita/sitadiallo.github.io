@@ -56,7 +56,7 @@ export default function Home() {
                 <div className="grid gap-6 md:grid-cols-2">
                     <article className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-6">
                         <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
-                            Unity • Team Project • 2D Platformer
+                            Unity | Team Project | 2D Platformer
                         </p>
 
                         <h3 className="mt-4 text-2xl font-semibold">Exile Chronicle</h3>
@@ -68,12 +68,12 @@ export default function Home() {
                             interaction.
                         </p>
 
-                        <div className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
-                            <p>• Built the full map from scratch using Unity Tilemaps</p>
-                            <p>• Designed the main menu</p>
-                            <p>• Improved an existing Sound Manager system</p>
-                            <p>• Focused on level flow, atmosphere, and visual coherence</p>
-                        </div>
+                        <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
+                            <li>Built the full map from scratch using Unity Tilemaps</li>
+                            <li>Designed the main menu</li>
+                            <li>Improved an existing Sound Manager system</li>
+                            <li>Focused on level flow, atmosphere, and visual coherence</li>
+                        </ul>
 
                         <div className="mt-6">
                             <button
@@ -87,7 +87,7 @@ export default function Home() {
 
                     <article className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-6">
                         <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
-                            Unity • Team Project • Systems Programming
+                            Unity | Team Project | Systems Programming
                         </p>
 
                         <h3 className="mt-4 text-2xl font-semibold">DC3: Viral Menace</h3>
@@ -98,12 +98,12 @@ export default function Home() {
                             fast-paced combat and upgrade-driven progression.
                         </p>
 
-                        <div className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
-                            <p>• Built a Progression Blueprint System</p>
-                            <p>• Integrated XP and upgrade progression logic</p>
-                            <p>• Designed a modular Grid System</p>
-                            <p>• Implemented a turret FSM with scalable state architecture</p>
-                        </div>
+                        <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
+                            <li>Built a Progression Blueprint System</li>
+                            <li>Integrated XP and upgrade progression logic</li>
+                            <li>Designed a modular Grid System</li>
+                            <li>Implemented a turret FSM with scalable state architecture</li>
+                        </ul>
 
                         <div className="mt-6">
                             <Link
@@ -122,7 +122,7 @@ export default function Home() {
                     <p className="text-sm uppercase tracking-[0.2em] text-[#8f97a3]">
                         Contact
                     </p>
-                    <h2 className="mt-3 text-3xl font-semibold">Let’s connect</h2>
+                    <h2 className="mt-3 text-3xl font-semibold">Let&apos;s connect</h2>
                     <p className="mt-4 max-w-2xl text-sm leading-7 text-[#c9ced6]">
                         Email, GitHub, LinkedIn, and resume links will go here.
                     </p>
