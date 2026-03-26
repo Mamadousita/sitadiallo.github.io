@@ -1,9 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function DC3Page() {
     return (
         <main className="min-h-screen bg-[#1f2227] text-[#f5f5f5]">
             <section className="mx-auto max-w-5xl px-6 py-16">
+
+                {/* ===== Link to main menu ===== */}
                 <Link
                     href="/"
                     className="inline-block rounded-2xl border border-[#3b4048] px-5 py-3 text-sm font-medium text-[#d7dbe2] transition hover:bg-[#2a2e35]"
@@ -11,6 +14,7 @@ export default function DC3Page() {
                     Back to Home
                 </Link>
 
+                {/* ===== Title and Description ===== */}
                 <div className="mt-10">
                     <p className="text-sm uppercase tracking-[0.25em] text-[#8f97a3]">
                         Unity | Team Project | Systems Programming
@@ -37,6 +41,72 @@ export default function DC3Page() {
                         features including progression, upgrades, grid-based interaction,
                         and turret behavior.
                     </p>
+                </div>
+            </section>
+
+            {/* ===== BLUEPRINT IMAGES SECTION ===== */}
+            <section className="mx-auto max-w-5xl px-6 pb-12">
+                <h2 className="text-2xl font-semibold">Blueprint System</h2>
+
+                <p className="mt-3 text-sm text-[#c9ced6]">
+                    Overview of the Blueprint system UI, showing progression tiers and
+                    upgrade selection.
+                </p>
+
+                {/* 3-column image grid for blueprint screenshots */}
+                <div className="mt-6 grid gap-4 md:grid-cols-3">
+                    <Image
+                        src="/images/dc3/blueprint1.png"
+                        alt="Blueprint UI 1"
+                        width={600}
+                        height={400}
+                        className="rounded-2xl object-cover"
+                    />
+
+                    <Image
+                        src="/images/dc3/blueprint2.png"
+                        alt="Blueprint UI 2"
+                        width={600}
+                        height={400}
+                        className="rounded-2xl object-cover"
+                    />
+
+                    <Image
+                        src="/images/dc3/blueprint3.png"
+                        alt="Blueprint UI 3"
+                        width={600}
+                        height={400}
+                        className="rounded-2xl object-cover"
+                    />
+                </div>
+            </section>
+
+            {/* ===== GRID IMAGES SECTION ===== */}
+            <section className="mx-auto max-w-5xl px-6 pb-12">
+                <h2 className="text-2xl font-semibold">Grid System</h2>
+
+                <p className="mt-3 text-sm text-[#c9ced6]">
+                    Grid-based interaction system with placement logic and turret
+                    integration.
+                </p>
+
+                {/* 2-column image grid for grid system screenshots */}
+                <div className="mt-6 grid gap-4 md:grid-cols-2">
+                    <Image
+                        src="/images/dc3/gridSystem.png"
+                        alt="Grid System"
+                        width={800}
+                        height={500}
+                        className="rounded-2xl object-cover"
+                    />
+
+                    <Image
+                        src="/images/dc3/gridSystem2.png"
+                        alt="Grid and Turret Integration"
+                        width={800}
+                        height={500}
+                        className="rounded-2xl object-cover"
+                    />
                 </div>
             </section>
 
