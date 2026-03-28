@@ -76,12 +76,12 @@ export default function Home() {
                         </ul>
 
                         <div className="mt-6">
-                            <button
-                                className="rounded-2xl border border-[#3b4048] px-5 py-3 text-sm font-medium text-[#d7dbe2] transition hover:bg-[#31363e]"
-                                disabled
+                            <Link
+                                href="/projects/exile"
+                                className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
                             >
-                                Details coming soon
-                            </button>
+                                View Details
+                            </Link>
                         </div>
                     </article>
 

@@ -55,29 +55,36 @@ export default function DC3Page() {
 
                 {/* 3-column image grid for blueprint screenshots */}
                 <div className="mt-6 grid gap-4 md:grid-cols-3">
-                    <Image
-                        src="/images/dc3/blueprint1.png"
-                        alt="Blueprint UI 1"
-                        width={600}
-                        height={400}
-                        className="rounded-2xl object-cover"
-                    />
+                    <div className="overflow-hidden rounded-2xl">
+                        <Image
+                            src="/images/dc3/blueprint1.png"
+                            alt="Blueprint UI 1"
+                            width={600}
+                            height={400}
+                            className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src="/images/dc3/blueprint2.png"
+                            alt="Blueprint UI 2"
+                            width={600}
+                            height={400}
+                            className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                        />
+                    </div>
+                    <div>
+                        <Image
+                            src="/images/dc3/blueprint3.png"
+                            alt="Blueprint UI 3"
+                            width={600}
+                            height={400}
+                            className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                        />
+                    </div>
+                    
 
-                    <Image
-                        src="/images/dc3/blueprint2.png"
-                        alt="Blueprint UI 2"
-                        width={600}
-                        height={400}
-                        className="rounded-2xl object-cover"
-                    />
-
-                    <Image
-                        src="/images/dc3/blueprint3.png"
-                        alt="Blueprint UI 3"
-                        width={600}
-                        height={400}
-                        className="rounded-2xl object-cover"
-                    />
+                    
                 </div>
             </section>
 
@@ -97,7 +104,7 @@ export default function DC3Page() {
                         alt="Grid System"
                         width={800}
                         height={500}
-                        className="rounded-2xl object-cover"
+                        className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
 
                     <Image
@@ -105,7 +112,7 @@ export default function DC3Page() {
                         alt="Grid and Turret Integration"
                         width={800}
                         height={500}
-                        className="rounded-2xl object-cover"
+                        className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
                 </div>
             </section>
