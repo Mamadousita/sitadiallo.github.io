@@ -100,7 +100,7 @@ export default function DC3Page() {
                 {/* 2-column image grid for grid system screenshots */}
                 <div className="mt-6 grid gap-4 md:grid-cols-2">
                     <Image
-                        src="/images/dc3/gridSystem.png"
+                        src="/images/dc3/gridsystem.png"
                         alt="Grid System"
                         width={800}
                         height={500}
@@ -108,7 +108,7 @@ export default function DC3Page() {
                     />
 
                     <Image
-                        src="/images/dc3/gridSystem2.png"
+                        src="/images/dc3/gridsystem2.png"
                         alt="Grid and Turret Integration"
                         width={800}
                         height={500}
