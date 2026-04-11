@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -53,7 +54,55 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="grid gap-6 md:grid-cols-2">
+                <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+                    <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
+                        <div className="overflow-hidden">
+                            <Image
+                                src="/images/grave/gameplay1.png"
+                                alt="gRave gameplay"
+                                width={1200}
+                                height={700}
+                                className="h-56 w-full object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                            />
+                        </div>
+
+                        <div className="p-6">
+                            <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
+                                Unreal Engine | Team Project | Rhythm Action
+                            </p>
+
+                            <h3 className="mt-4 text-2xl font-semibold">gRave</h3>
+
+                            <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
+                                A rhythm-based action game where players follow the beat of the music and click at the right moment to earn attacks, eliminate cultists, and build score multipliers while avoiding unstoppable guards.
+                            </p>
+
+                            <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
+                                <li>Programmed the core beat-based gameplay loop</li>
+                                <li>Implemented score and multiplier systems</li>
+                                <li>Built UI timing feedback for rhythm accuracy</li>
+                                <li>Focused on responsiveness and game feel</li>
+                            </ul>
+
+                            <div className="mt-6 flex flex-wrap gap-3">
+                                <Link
+                                    href="/projects/grave"
+                                    className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                                >
+                                    View Details
+                                </Link>
+
+                                <a
+                                    href="https://mahirm.itch.io/grave"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="inline-block rounded-2xl border border-[#3b4048] px-5 py-3 text-sm font-medium text-[#d7dbe2] transition hover:bg-[#2a2e35]"
+                                >
+                                    Play on itch.io
+                                </a>
+                            </div>
+                        </div>
+                    </article>
                     <article className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-6">
                         <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
                             Unity | Team Project | 2D Platformer
