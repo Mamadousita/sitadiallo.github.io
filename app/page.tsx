@@ -113,25 +113,28 @@ export default function Home() {
                                 className="h-56 w-full object-cover transition duration-300 hover:scale-105"
                             />
                         </div>
-                        <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
-                            Unity | Team Project | 2D Platformer
-                        </p>
+                        <div className="p-6">
+                            <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
+                                Unity | Team Project | 2D Platformer
+                            </p>
 
-                        <h3 className="mt-4 text-2xl font-semibold">Exile Chronicle</h3>
+                            <h3 className="mt-4 text-2xl font-semibold">Exile Chronicle</h3>
 
-                        <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
-                            A 2D platformer built in a team environment, featuring a knight
-                            exploring a tile-based world, fighting goblins and flying enemies,
-                            and switching between different timelines through environmental
-                            interaction.
-                        </p>
+                            <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
+                                A 2D platformer built in a team environment, featuring a knight
+                                exploring a tile-based world, fighting goblins and flying enemies,
+                                and switching between different timelines through environmental
+                                interaction.
+                            </p>
 
-                        <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
-                            <li>Built the full map from scratch using Unity Tilemaps</li>
-                            <li>Designed the main menu</li>
-                            <li>Improved an existing Sound Manager system</li>
-                            <li>Focused on level flow, atmosphere, and visual coherence</li>
-                        </ul>
+                            <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
+                                <li>Built the full map from scratch using Unity Tilemaps</li>
+                                <li>Designed the main menu</li>
+                                <li>Improved an existing Sound Manager system</li>
+                                <li>Focused on level flow, atmosphere, and visual coherence</li>
+                            </ul>
+                        </div>
+                        
 
                         <div className="mt-6">
                             <Link
@@ -153,24 +156,27 @@ export default function Home() {
                                 className="h-56 w-full object-cover transition duration-300 hover:scale-105"
                             />
                         </div>
-                        <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
-                            Unity | Team Project | Systems Programming
-                        </p>
+                        <div className="p-6">
+                            <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
+                                Unity | Team Project | Systems Programming
+                            </p>
 
-                        <h3 className="mt-4 text-2xl font-semibold">DC3: Viral Menace</h3>
+                            <h3 className="mt-4 text-2xl font-semibold">DC3: Viral Menace</h3>
 
-                        <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
-                            A comic book-themed sci-fi twin-stick shooter where players
-                            explore the human body and fight waves of viruses through
-                            fast-paced combat and upgrade-driven progression.
-                        </p>
+                            <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
+                                A comic book-themed sci-fi twin-stick shooter where players
+                                explore the human body and fight waves of viruses through
+                                fast-paced combat and upgrade-driven progression.
+                            </p>
 
-                        <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
-                            <li>Built a Progression Blueprint System</li>
-                            <li>Integrated XP and upgrade progression logic</li>
-                            <li>Designed a modular Grid System</li>
-                            <li>Implemented a turret FSM with scalable state architecture</li>
-                        </ul>
+                            <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
+                                <li>Built a Progression Blueprint System</li>
+                                <li>Integrated XP and upgrade progression logic</li>
+                                <li>Designed a modular Grid System</li>
+                                <li>Implemented a turret FSM with scalable state architecture</li>
+                            </ul>
+                        </div>
+                        
 
                         <div className="mt-6">
                             <Link
