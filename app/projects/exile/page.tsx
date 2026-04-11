@@ -45,6 +45,16 @@ export default function ExilePage() {
                             interaction.
                         </p>
                     </div>
+                    <div className="mt-6 flex gap-3">
+                        <a
+                            href="https://durumert.itch.io/exile-chronicles"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                        >
+                            Play on itch.io
+                        </a>
+                    </div>
                 </div>
             </section>
 
