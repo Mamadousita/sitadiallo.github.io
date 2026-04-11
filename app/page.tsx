@@ -104,6 +104,15 @@ export default function Home() {
                         </div>
                     </article>
                     <article className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-6">
+                        <div className="overflow-hidden">
+                            <Image
+                                src="/images/exile/exilecover.png"
+                                alt="Exile Chronicle"
+                                width={1200}
+                                height={700}
+                                className="h-56 w-full object-cover transition duration-300 hover:scale-105"
+                            />
+                        </div>
                         <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
                             Unity | Team Project | 2D Platformer
                         </p>
@@ -135,6 +144,15 @@ export default function Home() {
                     </article>
 
                     <article className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-6">
+                        <div className="overflow-hidden">
+                            <Image
+                                src="/images/dc3/dc3cover.png"
+                                alt="DC3 Viral Menace"
+                                width={1200}
+                                height={700}
+                                className="h-56 w-full object-cover transition duration-300 hover:scale-105"
+                            />
+                        </div>
                         <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
                             Unity | Team Project | Systems Programming
                         </p>

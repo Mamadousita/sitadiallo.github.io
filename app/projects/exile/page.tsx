@@ -20,7 +20,7 @@ export default function ExilePage() {
                     {/* Hero image */}
                     <div className="overflow-hidden">
                         <Image
-                            src="/images/exile/exilecover.png"
+                            src="/images/exile/halfswordicon.png"
                             alt="Exile Chronicle cover"
                             width={1400}
                             height={700}
