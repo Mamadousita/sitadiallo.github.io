@@ -20,7 +20,7 @@ export default function ExilePage() {
                     {/* Hero image */}
                     <div className="overflow-hidden">
                         <Image
-                            src="/images/exile/exile-cover.png"
+                            src="/images/exile/exilecover.png"
                             alt="Exile Chronicle cover"
                             width={1400}
                             height={700}
@@ -111,7 +111,7 @@ export default function ExilePage() {
                 {/* Forest / wide image */}
                 <div>
                     <Image
-                        src="/images/exile/exile-forest-path.png"
+                        src="/images/exile/exileforestpath.png"
                         alt="Exile Chronicle forest path"
                         width={1600}
                         height={700}
@@ -132,7 +132,7 @@ export default function ExilePage() {
                     {/* ===== LEFT: IMAGE  ===== */}
                     <div>
                         <Image
-                            src="/images/exile/exile-fortress-layout.png"
+                            src="/images/exile/exilefortresslayout.png"
                             alt="Exile Chronicle fortress layout"
                             width={900}
                             height={1600}
