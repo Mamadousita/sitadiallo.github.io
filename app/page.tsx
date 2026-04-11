@@ -47,7 +47,9 @@ export default function Home() {
                     <p className="text-sm uppercase tracking-[0.25em] text-[#8f97a3]">
                         Selected Work
                     </p>
-                    <h2 className="mt-3 text-3xl font-semibold md:text-4xl">Projects</h2>
+                    <h2 className="mt-3 text-3xl font-semibold md:text-4xl">
+                        Projects
+                    </h2>
                     <p className="mt-4 max-w-2xl text-base leading-8 text-[#c9ced6]">
                         A selection of projects showing both my technical systems work and
                         my creative approach to game development.
@@ -55,6 +57,7 @@ export default function Home() {
                 </div>
 
                 <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+                    {/* gRave */}
                     <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
                         <div className="overflow-hidden">
                             <Image
@@ -74,7 +77,10 @@ export default function Home() {
                             <h3 className="mt-4 text-2xl font-semibold">gRave</h3>
 
                             <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
-                                A rhythm-based action game where players follow the beat of the music and click at the right moment to earn attacks, eliminate cultists, and build score multipliers while avoiding unstoppable guards.
+                                A rhythm-based action game where players follow the beat of
+                                the music and click at the right moment to earn attacks,
+                                eliminate cultists, and build score multipliers while
+                                avoiding unstoppable guards.
                             </p>
 
                             <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
@@ -103,28 +109,33 @@ export default function Home() {
                             </div>
                         </div>
                     </article>
-                    <article className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-6">
+
+                    {/* Exile Chronicle */}
+                    <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
                         <div className="overflow-hidden">
                             <Image
                                 src="/images/exile/exilecover.png"
                                 alt="Exile Chronicle"
                                 width={1200}
                                 height={700}
-                                className="h-56 w-full object-cover transition duration-300 hover:scale-105"
+                                className="h-56 w-full object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                             />
                         </div>
+
                         <div className="p-6">
                             <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
                                 Unity | Team Project | 2D Platformer
                             </p>
 
-                            <h3 className="mt-4 text-2xl font-semibold">Exile Chronicle</h3>
+                            <h3 className="mt-4 text-2xl font-semibold">
+                                Exile Chronicle
+                            </h3>
 
                             <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
-                                A 2D platformer built in a team environment, featuring a knight
-                                exploring a tile-based world, fighting goblins and flying enemies,
-                                and switching between different timelines through environmental
-                                interaction.
+                                A 2D platformer built in a team environment, featuring a
+                                knight exploring a tile-based world, fighting goblins and
+                                flying enemies, and switching between different timelines
+                                through environmental interaction.
                             </p>
 
                             <ul className="mt-5 space-y-2 text-sm leading-7 text-[#b8bec8]">
@@ -133,35 +144,38 @@ export default function Home() {
                                 <li>Improved an existing Sound Manager system</li>
                                 <li>Focused on level flow, atmosphere, and visual coherence</li>
                             </ul>
-                        </div>
-                        
 
-                        <div className="mt-6">
-                            <Link
-                                href="/projects/exile"
-                                className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
-                            >
-                                View Details
-                            </Link>
+                            <div className="mt-6">
+                                <Link
+                                    href="/projects/exile"
+                                    className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                                >
+                                    View Details
+                                </Link>
+                            </div>
                         </div>
                     </article>
 
-                    <article className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-6">
+                    {/* DC3 */}
+                    <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
                         <div className="overflow-hidden">
                             <Image
                                 src="/images/dc3/dc3cover.png"
                                 alt="DC3 Viral Menace"
                                 width={1200}
                                 height={700}
-                                className="h-56 w-full object-cover transition duration-300 hover:scale-105"
+                                className="h-56 w-full object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                             />
                         </div>
+
                         <div className="p-6">
                             <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
                                 Unity | Team Project | Systems Programming
                             </p>
 
-                            <h3 className="mt-4 text-2xl font-semibold">DC3: Viral Menace</h3>
+                            <h3 className="mt-4 text-2xl font-semibold">
+                                DC3: Viral Menace
+                            </h3>
 
                             <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
                                 A comic book-themed sci-fi twin-stick shooter where players
@@ -175,16 +189,15 @@ export default function Home() {
                                 <li>Designed a modular Grid System</li>
                                 <li>Implemented a turret FSM with scalable state architecture</li>
                             </ul>
-                        </div>
-                        
 
-                        <div className="mt-6">
-                            <Link
-                                href="/projects/dc3"
-                                className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
-                            >
-                                View Details
-                            </Link>
+                            <div className="mt-6">
+                                <Link
+                                    href="/projects/dc3"
+                                    className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                                >
+                                    View Details
+                                </Link>
+                            </div>
                         </div>
                     </article>
                 </div>
@@ -195,7 +208,9 @@ export default function Home() {
                     <p className="text-sm uppercase tracking-[0.2em] text-[#8f97a3]">
                         Contact
                     </p>
-                    <h2 className="mt-3 text-3xl font-semibold">Let&apos;s connect</h2>
+                    <h2 className="mt-3 text-3xl font-semibold">
+                        Let&apos;s connect
+                    </h2>
                     <p className="mt-4 max-w-2xl text-sm leading-7 text-[#c9ced6]">
                         Email, GitHub, LinkedIn, and resume links will go here.
                     </p>
