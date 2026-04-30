@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import ClickableImage from "@/components/clickableimage";
 
 export default function GravePage() {
     return (
@@ -115,35 +116,27 @@ export default function GravePage() {
                 </div>
 
                 <div className="grid gap-4 md:grid-cols-2">
-                    <Image
+                    <ClickableImage
                         src="/images/grave/menu.png"
                         alt="gRave main menu"
-                        width={1200}
-                        height={700}
                         className="rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
 
-                    <Image
+                    <ClickableImage
                         src="/images/grave/controls.png"
                         alt="gRave controls screen"
-                        width={1200}
-                        height={700}
                         className="rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
 
-                    <Image
+                    <ClickableImage
                         src="/images/grave/gameplay1.png"
                         alt="gRave gameplay screenshot 1"
-                        width={1200}
-                        height={700}
                         className="rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
 
-                    <Image
+                    <ClickableImage
                         src="/images/grave/gameplay2.png"
                         alt="gRave gameplay screenshot 2"
-                        width={1200}
-                        height={700}
                         className="rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
                 </div>

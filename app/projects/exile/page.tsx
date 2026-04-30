@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import ClickableImage from "@/components/clickableimage";
 
 export default function ExilePage() {
     return (
@@ -120,12 +121,12 @@ export default function ExilePage() {
 
                 {/* Forest / wide image */}
                 <div>
-                    <Image
+                    <ClickableImage
                         src="/images/exile/exileforestpath.png"
                         alt="Exile Chronicle forest path"
                         width={1600}
                         height={700}
-                        className="w-full h-auto rounded-2xl object-contain"
+                        className="w-full h-auto rounded-2xl object-contain transition duration-300 hover:scale-105 hover:brightness-110"
                     />
                 </div>
 
@@ -141,12 +142,12 @@ export default function ExilePage() {
 
                     {/* ===== LEFT: IMAGE  ===== */}
                     <div>
-                        <Image
+                        <ClickableImage
                             src="/images/exile/exilefortresslayout.png"
                             alt="Exile Chronicle fortress layout"
                             width={900}
                             height={1600}
-                            className="w-full h-auto rounded-2xl object-contain"
+                            className="w-full h-auto rounded-2xl object-contain transition duration-300 hover:scale-105 hover:brightness-110"
                         />
                     </div>
 

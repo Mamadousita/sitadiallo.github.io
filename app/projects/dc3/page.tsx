@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import ClickableImage from "@/components/clickableimage";
 
 export default function DC3Page() {
     return (
@@ -55,36 +56,29 @@ export default function DC3Page() {
 
                 {/* 3-column image grid for blueprint screenshots */}
                 <div className="mt-6 grid gap-4 md:grid-cols-3">
-                    <div className="overflow-hidden rounded-2xl">
-                        <Image
-                            src="/images/dc3/blueprint1.png"
-                            alt="Blueprint UI 1"
-                            width={600}
-                            height={400}
-                            className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/dc3/blueprint2.png"
-                            alt="Blueprint UI 2"
-                            width={600}
-                            height={400}
-                            className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
-                        />
-                    </div>
-                    <div>
-                        <Image
-                            src="/images/dc3/blueprint3.png"
-                            alt="Blueprint UI 3"
-                            width={600}
-                            height={400}
-                            className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
-                        />
-                    </div>
-                    
+                    <ClickableImage
+                        src="/images/dc3/blueprint1.png"
+                        alt="Blueprint UI 1"
+                        width={600}
+                        height={400}
+                        className="w-full rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                    />
 
-                    
+                    <ClickableImage
+                        src="/images/dc3/blueprint2.png"
+                        alt="Blueprint UI 2"
+                        width={600}
+                        height={400}
+                        className="w-full rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                    />
+
+                    <ClickableImage
+                        src="/images/dc3/blueprint3.png"
+                        alt="Blueprint UI 3"
+                        width={600}
+                        height={400}
+                        className="w-full rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                    />
                 </div>
             </section>
 
@@ -99,20 +93,20 @@ export default function DC3Page() {
 
                 {/* 2-column image grid for grid system screenshots */}
                 <div className="mt-6 grid gap-4 md:grid-cols-2">
-                    <Image
+                    <ClickableImage
                         src="/images/dc3/gridsystem.png"
                         alt="Grid System"
                         width={800}
                         height={500}
-                        className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                        className="w-full rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
 
-                    <Image
+                    <ClickableImage
                         src="/images/dc3/gridsystem2.png"
                         alt="Grid and Turret Integration"
                         width={800}
                         height={500}
-                        className="object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                        className="w-full rounded-2xl object-cover transition duration-300 hover:scale-105 hover:brightness-110"
                     />
                 </div>
             </section>
