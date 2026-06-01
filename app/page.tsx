@@ -41,7 +41,83 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            {/* FEATURED PROJECT */}
+            <section className="mx-auto max-w-6xl px-6 pb-20">
+                <div className="mb-8">
+                    <p className="text-sm uppercase tracking-[0.25em] text-[#8f97a3]">
+                        Featured Project
+                    </p>
 
+                    <h2 className="mt-3 text-3xl font-semibold md:text-4xl">
+                        City Rooftops
+                    </h2>
+
+                    <p className="mt-4 max-w-3xl text-base leading-8 text-[#c9ced6]">
+                        A large-scale Unreal Engine project developed by six developers across
+                        three chapters. This showcase focuses on the City Rooftops chapter,
+                        where I designed and implemented gameplay systems, level design,
+                        cinematics, puzzles, and interactive gameplay elements.
+                    </p>
+                </div>
+
+                <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
+
+                    <div className="overflow-hidden">
+                        <Image
+                            src="/images/cityrooftops/rooftopscover.png"
+                            alt="City Rooftops cover"
+                            width={1600}
+                            height={900}
+                            className="h-[340px] w-full object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                        />
+                    </div>
+
+                    <div className="p-8">
+
+                        <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
+                            Unreal Engine | Gameplay Systems | Level Design
+                        </p>
+
+                        <h3 className="mt-4 text-4xl font-semibold">
+                            City Rooftops: Gameplay Systems Capstone
+                        </h3>
+
+                        <div className="mt-6 grid gap-4 md:grid-cols-4">
+
+                            {[
+                                "Gameplay Systems",
+                                "Level Design",
+                                "Blueprints",
+                                "Sequencer",
+                                "C++",
+                                "Puzzle Systems",
+                                "FX / SFX",
+                                "UI Systems",
+                            ].map((item) => (
+                                <div
+                                    key={item}
+                                    className="rounded-xl border border-[#3b4048] bg-[#31363e] px-4 py-3 text-sm"
+                                >
+                                    {item}
+                                </div>
+                            ))}
+
+                        </div>
+
+                        <div className="mt-8 flex flex-wrap gap-4">
+
+                            <Link
+                                href="/projects/cityrooftops"
+                                className="rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium transition hover:bg-[#3a4048]"
+                            >
+                                View Full Breakdown
+                            </Link>
+
+                        </div>
+
+                    </div>
+                </article>
+            </section>
             <section className="mx-auto max-w-6xl px-6 pb-20">
                 <div className="mb-10">
                     <p className="text-sm uppercase tracking-[0.25em] text-[#8f97a3]">
