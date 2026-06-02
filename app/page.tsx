@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
     return (
         <main className="min-h-screen bg-[#1f2227] text-[#f5f5f5]">
-            <section className="mx-auto flex min-h-[92vh] max-w-6xl items-center px-6 py-20">
+            <section className="mx-auto flex max-w-6xl items-center px-6 pt-20 pb-12">
                 <div className="max-w-3xl">
                     <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#b8bec8]">
                         Portfolio
@@ -15,14 +15,15 @@ export default function Home() {
                     </h1>
 
                     <p className="mt-6 max-w-2xl text-lg leading-8 text-[#c9ced6] md:text-xl">
-                        Game Programming student at George Brown College with experience in
-                        Unreal Engine, Unity, real-time systems, and interactive technical
-                        projects beyond games.
+                        Unreal Engine developer focused on building interactive experiences,
+                        technical design, and gameplay systems. Interested in real-time systems,
+                        interactive applications, educational experiences, and building projects
+                        that extend beyond traditional games.
                     </p>
 
                     <div className="mt-8 flex flex-wrap gap-4">
                         <a
-                            href="https://github.com/"
+                            href="https://github.com/Mamadousita"
                             target="_blank"
                             rel="noreferrer"
                             className="rounded-2xl border border-[#3b4048] bg-[#2a2e35] px-6 py-3 text-sm font-medium transition hover:translate-y-[-1px] hover:bg-[#31363e]"
@@ -31,7 +32,7 @@ export default function Home() {
                         </a>
 
                         <a
-                            href="https://www.linkedin.com/"
+                            href="https://www.linkedin.com/in/mamadou-sita-diallo-8475b42a0"
                             target="_blank"
                             rel="noreferrer"
                             className="rounded-2xl border border-[#3b4048] px-6 py-3 text-sm font-medium text-[#d7dbe2] transition hover:bg-[#2a2e35]"
@@ -290,15 +291,64 @@ export default function Home() {
 
             <section className="mx-auto max-w-6xl px-6 pb-24">
                 <div className="rounded-3xl border border-[#3b4048] bg-[#2a2e35] p-8">
+
                     <p className="text-sm uppercase tracking-[0.2em] text-[#8f97a3]">
                         Contact
                     </p>
+
                     <h2 className="mt-3 text-3xl font-semibold">
-                        Let&apos;s connect
+                        Interested in working together?
                     </h2>
-                    <p className="mt-4 max-w-2xl text-sm leading-7 text-[#c9ced6]">
-                        Email, GitHub, LinkedIn, and resume links will go here.
+
+                    <p className="mt-4 max-w-3xl text-sm leading-8 text-[#c9ced6]">
+                        Passionate about creating interactive experiences, Unreal Engine development,
+                        technical design, and gameplay systems.
+                        My interests extend beyond games into simulation,
+                        systems design, and building technical experiences that solve
+                        real-world problems and create immersive interactions.
                     </p>
+
+                    <p className="mt-4 max-w-3xl text-sm leading-8 text-[#c9ced6]">
+                        Feel free to reach out for opportunities, collaborations,
+                        or simply to connect.
+                    </p>
+
+                    <div className="mt-8 flex flex-wrap gap-4">
+
+                        <a
+                            href="mailto:diallosita015@gmail.com"
+                            className="rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium transition hover:bg-[#3a4048]"
+                        >
+                            Email Me
+                        </a>
+
+                        <a
+                            href="https://github.com/Mamadousita"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="rounded-2xl border border-[#3b4048] px-6 py-3 text-sm font-medium transition hover:bg-[#31363e]"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/mamadou-sita-diallo-8475b42a0"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="rounded-2xl border border-[#3b4048] px-6 py-3 text-sm font-medium transition hover:bg-[#31363e]"
+                        >
+                            LinkedIn
+                        </a>
+
+                        <a
+                            href="/resume.pdf"
+                            target="_blank"
+                            className="rounded-2xl border border-[#3b4048] px-6 py-3 text-sm font-medium transition hover:bg-[#31363e]"
+                        >
+                            Resume
+                        </a>
+
+                    </div>
                 </div>
             </section>
         </main>
