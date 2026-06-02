@@ -151,7 +151,7 @@ export default function Home() {
                                 Unreal Engine | Team Project | Rhythm Action
                             </p>
 
-                            <h3 className="mt-4 text-2xl font-semibold">gRave</h3>
+                            <h3 className="mt-4 text-2xl font-semibold">GRave</h3>
 
                             <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
                                 A rhythm-based action game where players follow the beat of
@@ -276,13 +276,24 @@ export default function Home() {
                                 <li>Implemented a turret FSM with scalable state architecture</li>
                             </ul>
 
-                            <div className="mt-6">
+                            <div className="mt-6 flex flex-wrap gap-3">
+
                                 <Link
                                     href="/projects/dc3"
-                                    className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                                    className="rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium transition hover:bg-[#3a4048]"
                                 >
-                                    View Details
+                                    View Project
                                 </Link>
+
+                                <a
+                                    href="https://store.steampowered.com/app/2336040/DC3_Viral_Menace/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="rounded-2xl border border-[#3b4048] px-6 py-3 text-sm font-medium transition hover:bg-[#31363e]"
+                                >
+                                    View on Steam
+                                </a>
+
                             </div>
                         </div>
                     </article>

@@ -31,6 +31,18 @@ export default function DC3Page() {
                         and upgrade-driven progression.
                     </p>
                 </div>
+                <div className="mt-8 flex flex-wrap gap-3">
+
+                    <a
+                        href="https://store.steampowered.com/app/2336040/DC3_Viral_Menace/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                    >
+                        View on Steam
+                    </a>
+
+                </div>
             </section>
 
             <section className="mx-auto max-w-5xl px-6 pb-12">

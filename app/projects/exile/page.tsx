@@ -14,10 +14,10 @@ export default function ExilePage() {
                     Back to Home
                 </Link>
             </section>
-
             {/* ===== HERO SECTION ===== */}
             <section className="mx-auto max-w-5xl px-6 pb-12">
                 <div className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
+
                     {/* Hero image */}
                     <div className="overflow-hidden">
                         <Image
@@ -31,6 +31,7 @@ export default function ExilePage() {
 
                     {/* Hero content */}
                     <div className="p-8">
+
                         <p className="text-sm uppercase tracking-[0.25em] text-[#8f97a3]">
                             Unity | Team Project | 2D Platformer
                         </p>
@@ -45,17 +46,21 @@ export default function ExilePage() {
                             and switching between different timelines through environmental
                             interaction.
                         </p>
+
+                        {/* BUTTON MOVED HERE */}
+                        <div className="mt-8 flex gap-3">
+                            <a
+                                href="https://durumert.itch.io/exile-chronicles"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                            >
+                                Play on itch.io
+                            </a>
+                        </div>
+
                     </div>
-                    <div className="mt-6 flex gap-3">
-                        <a
-                            href="https://durumert.itch.io/exile-chronicles"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
-                        >
-                            Play on itch.io
-                        </a>
-                    </div>
+
                 </div>
             </section>
 
