@@ -65,7 +65,7 @@ export default function CityRooftopsPage() {
 
                     <p className="mt-4 text-sm leading-8 text-[#c9ced6]">
                         Everything showcased in this breakdown was built by me from start to
-                        finish, with the exception of the final visual styling pass added
+                        finish, with the exception of the final visual polish added
                         later by teammates for the Main Menu and Chapter Select interfaces.
                     </p>
                 </div>
@@ -219,7 +219,7 @@ export default function CityRooftopsPage() {
                                     Mech Turret System
                                 </h3>
                                 <p className="mt-4 text-sm leading-8 text-[#c9ced6]">
-                                    I developed a mech turret gameplay system focused on
+                                    I developed a mech turret gameplay system focused on animation, 
                                     aiming, interaction, feedback, and player-facing
                                     responsiveness.
                                 </p>
@@ -250,8 +250,9 @@ export default function CityRooftopsPage() {
                                     Color Puzzle
                                 </h3>
                                 <p className="mt-4 text-sm leading-8 text-[#c9ced6]">
-                                    A puzzle system built around player interaction,
-                                    readability, and progression through color-based logic.
+                                    Designed and implemented a color-based puzzle system where players interact with colored mechanisms to
+                                    progress through the environment. The system was built around clear visual feedback, readability, and increasing
+                                    complexity to keep interactions intuitive while expanding challenge
                                 </p>
                             </div>
 
@@ -288,9 +289,8 @@ export default function CityRooftopsPage() {
                                     Rotating Machine Puzzle
                                 </h3>
                                 <p className="mt-4 text-sm leading-8 text-[#c9ced6]">
-                                    A rotating puzzle machine system designed around movement,
-                                    timing, readable mechanical behavior, and player
-                                    interaction.
+                                    Designed and implemented a rotating puzzle machine system where players interact with moving mechanical components
+                                    to solve progression-based challenges. Built with a focus on timing, readability, and clear mechanical behavior.
                                 </p>
                             </div>
                         </div>
@@ -370,7 +370,7 @@ export default function CityRooftopsPage() {
                         />
                         <h3 className="mt-5 text-xl font-semibold">Small Turret</h3>
                         <p className="mt-3 text-sm leading-7 text-[#c9ced6]">
-                            A small turret gameplay element with X/Y aiming rotation, shooting
+                            A small turret gameplay element with X/Y/Z aiming rotation, shooting
                             feedback, FX, SFX, and a visual trajectory effect.
                         </p>
                     </article>
@@ -398,12 +398,12 @@ export default function CityRooftopsPage() {
                     />
 
                     <h3 className="mt-5 text-xl font-semibold">
-                        Small Turret and Fragile Box Demo
+                        Small Turret and Environmental Interaction Demo
                     </h3>
 
                     <p className="mt-3 text-sm leading-7 text-[#c9ced6]">
-                        A combined gameplay demonstration showing small interaction systems,
-                        shooting feedback, impact response, and destructible object behavior.
+                        A gameplay demonstration showcasing turret interaction systems, shooting feedback, impact response,
+                        and environmental objects designed to support player cover and interaction, including destructible elements.
                     </p>
                 </div>
             </section>

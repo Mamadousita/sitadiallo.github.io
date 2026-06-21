@@ -42,82 +42,138 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            {/* FEATURED PROJECT */}
+            {/* FEATURED PROJECTS */}
             <section className="mx-auto max-w-6xl px-6 pb-20">
                 <div className="mb-8">
                     <p className="text-sm uppercase tracking-[0.25em] text-[#8f97a3]">
-                        Featured Project
+                        Featured Projects
                     </p>
 
                     <h2 className="mt-3 text-3xl font-semibold md:text-4xl">
-                        City Rooftops
+                        Featured Projects
                     </h2>
-
-                    <p className="mt-4 max-w-3xl text-base leading-8 text-[#c9ced6]">
-                        A large-scale Unreal Engine project developed by six developers across
-                        three chapters. This showcase focuses on the City Rooftops chapter,
-                        where I designed and implemented gameplay systems, level design,
-                        cinematics, puzzles, and interactive gameplay elements.
-                    </p>
                 </div>
 
-                <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
+                <div className="grid gap-8 lg:grid-cols-[2.5fr_auto_1.2fr]">
+                    {/* City Rooftops */}
+                    <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
+                        <div className="overflow-hidden">
+                            <Image
+                                src="/images/cityrooftops/rooftopscover.png"
+                                alt="City Rooftops cover"
+                                width={1600}
+                                height={900}
+                                className="h-[300px] w-full object-cover transition duration-300 hover:scale-105 hover:brightness-110"
+                            />
+                        </div>
 
-                    <div className="overflow-hidden">
-                        <Image
-                            src="/images/cityrooftops/rooftopscover.png"
-                            alt="City Rooftops cover"
-                            width={1600}
-                            height={900}
-                            className="h-[340px] w-full object-cover transition duration-300 hover:scale-105 hover:brightness-110"
-                        />
-                    </div>
+                        <div className="p-8">
+                            <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
+                                Unreal Engine | Gameplay Systems | Level Design
+                            </p>
 
-                    <div className="p-8">
+                            <h3 className="mt-4 text-4xl font-semibold">
+                                City Rooftops: Gameplay Systems Capstone
+                            </h3>
 
-                        <p className="text-sm uppercase tracking-[0.15em] text-[#9ea6b2]">
-                            Unreal Engine | Gameplay Systems | Level Design
-                        </p>
+                            <p className="mt-5 text-sm leading-7 text-[#c9ced6]">
+                                A large-scale Unreal Engine project developed by six developers across
+                                three chapters. This showcase focuses on the City Rooftops chapter,
+                                where I designed and implemented gameplay systems, level design,
+                                cinematics, puzzles, and interactive gameplay elements.
+                            </p>
 
-                        <h3 className="mt-4 text-4xl font-semibold">
-                            City Rooftops: Gameplay Systems Capstone
-                        </h3>
+                            <div className="mt-6 flex flex-wrap gap-3">
+                                {[
+                                    "Gameplay Systems",
+                                    "Level Design",
+                                    "Blueprints",
+                                    "Sequencer",
+                                    "C++",
+                                    "Puzzle Systems",
+                                    "FX / SFX",
+                                    "UI Systems",
+                                ].map((item) => (
+                                    <span
+                                        key={item}
+                                        className="rounded-full border border-[#3b4048] bg-[#31363e] px-4 py-2 text-xs text-[#d7dbe2]"
+                                    >
+                                        {item}
+                                    </span>
+                                ))}
+                            </div>
 
-                        <div className="mt-6 grid gap-4 md:grid-cols-4">
-
-                            {[
-                                "Gameplay Systems",
-                                "Level Design",
-                                "Blueprints",
-                                "Sequencer",
-                                "C++",
-                                "Puzzle Systems",
-                                "FX / SFX",
-                                "UI Systems",
-                            ].map((item) => (
-                                <div
-                                    key={item}
-                                    className="rounded-xl border border-[#3b4048] bg-[#31363e] px-4 py-3 text-sm"
+                            <div className="mt-8">
+                                <Link
+                                    href="/projects/cityrooftops"
+                                    className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium transition hover:bg-[#3a4048]"
                                 >
-                                    {item}
-                                </div>
-                            ))}
+                                    View Full Breakdown
+                                </Link>
+                            </div>
+                        </div>
+                    </article>
 
+                    {/* Separator */}
+                    <div className="hidden w-px bg-gradient-to-b from-transparent via-[#3b4048] to-transparent lg:block" />
+
+                    {/* Showroom AI */}
+                    <article className="overflow-hidden rounded-3xl border border-[#3b4048] bg-[#2a2e35]">
+                        <div className="h-[230px] overflow-hidden border-b border-[#3b4048] bg-[#20242a]">
+                            <Image
+                                src="/images/showroom/showroomlogo.png"
+                                alt="Showroom AI logo"
+                                width={700}
+                                height={500}
+                                className="h-full w-full object-contain transition duration-300 hover:scale-105"
+                            />
                         </div>
 
-                        <div className="mt-8 flex flex-wrap gap-4">
+                        <div className="p-6">
+                            <p className="text-xs uppercase tracking-[0.15em] text-[#9ea6b2]">
+                                Node.js | AI Integration | Full Stack
+                            </p>
 
-                            <Link
-                                href="/projects/cityrooftops"
-                                className="rounded-2xl border border-[#3b4048] bg-[#31363e] px-6 py-3 text-sm font-medium transition hover:bg-[#3a4048]"
-                            >
-                                View Full Breakdown
-                            </Link>
+                            <h3 className="mt-4 text-2xl font-semibold">
+                                Showroom AI
+                            </h3>
 
+                            <p className="mt-4 text-sm leading-7 text-[#c9ced6]">
+                                An AI-powered showroom platform that transforms user ideas and
+                                reference images into professional visual concepts through prompt
+                                enhancement, validation workflows, and AI image generation.
+                            </p>
+
+                            <div className="mt-5 flex flex-wrap gap-2">
+                                {[
+                                    "Node.js",
+                                    "Express",
+                                    "SQLite",
+                                    "OpenAI",
+                                    "Stability AI",
+                                    "Stripe",
+                                    "SendGrid",
+                                ].map((item) => (
+                                    <span
+                                        key={item}
+                                        className="rounded-full border border-[#3b4048] bg-[#31363e] px-3 py-1.5 text-xs text-[#d7dbe2]"
+                                    >
+                                        {item}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="mt-6">
+                                <Link
+                                    href="/projects/showroom"
+                                    className="inline-block rounded-2xl border border-[#3b4048] bg-[#31363e] px-5 py-3 text-sm font-medium text-[#f5f5f5] transition hover:translate-y-[-1px] hover:bg-[#3a4048]"
+                                >
+                                    View Details
+                                </Link>
+                            </div>
                         </div>
-
-                    </div>
-                </article>
+                    </article>
+                </div>
             </section>
             <section className="mx-auto max-w-6xl px-6 pb-20">
                 <div className="mb-10">
